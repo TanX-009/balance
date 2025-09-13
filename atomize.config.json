@@ -1,0 +1,119 @@
+{
+  "utopia": {
+    "space": {
+      "config": {
+        "minWidth": 320,
+        "maxWidth": 1920,
+        "minSize": 18,
+        "maxSize": 20,
+        "negativeSteps": [0.1, 0.2, 0.3, 0.4, 0.5],
+        "positiveSteps": [1, 2, 3, 4, 6],
+        "customSizes": [
+          "xs-m",
+          "xs-l",
+          "s-l",
+          "s-xl",
+          "m-xl",
+          "m-2xl",
+          "l-2xl",
+          "l-3xl"
+        ],
+        "relativeTo": "viewport-width"
+      },
+      "seperator": "-",
+      "prefix": "sp"
+    },
+    "type": {
+      "config": {
+        "minWidth": 320,
+        "maxWidth": 1920,
+        "minFontSize": 12,
+        "maxFontSize": 24,
+        "minTypeScale": 1.1,
+        "maxTypeScale": 1.25,
+        "negativeSteps": 2,
+        "positiveSteps": 5,
+        "labelStyle": "tshirt",
+        "relativeTo": "viewport-width"
+      },
+      "seperator": "-",
+      "prefix": "st"
+    }
+  },
+  "color": "#8dd359",
+  "atomize": {
+    "seperator": "-",
+    "definitions": [
+      {
+        "atomic_prefix": "w",
+        "css_property": "width",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "h",
+        "css_property": "height",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "br",
+        "css_property": "border-radius",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "p",
+        "css_property": "padding",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "px",
+        "css_property": "padding-inline",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "py",
+        "css_property": "padding-block",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "pt",
+        "css_property": "padding-top",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "pb",
+        "css_property": "padding-bottom",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "pr",
+        "css_property": "padding-right",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "pl",
+        "css_property": "padding-left",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "gap",
+        "css_property": "gap",
+        "type": "space"
+      },
+      {
+        "atomic_prefix": "fs",
+        "css_property": "font-size",
+        "type": "type"
+      },
+      {
+        "atomic_prefix": "bg",
+        "css_property": "background",
+        "type": "color"
+      },
+      {
+        "atomic_prefix": "fg",
+        "css_property": "color",
+        "type": "color"
+      }
+    ]
+  }
+}

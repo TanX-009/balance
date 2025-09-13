@@ -1,0 +1,55 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+
+  /* transition: all 0.3s ease-out; */
+  /* -webkit-transition: all 0.3s ease-out; */
+  /* -moz-transition: all 0.3s ease-out; */
+  /* -o-transition: all 0.3s ease-out; */
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: fit-content;
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--surfaceContainerLowest);
+  color: var(--onSurface);
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: var(--sp-3xs);
+  height: var(--sp-3xs);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--surfaceContainer);
+  border-radius: calc(var(--radius) / 3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: calc(var(--radius) / 3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--outline);
+}
