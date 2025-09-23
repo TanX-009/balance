@@ -2,6 +2,7 @@
   import favicon from "$lib/assets/favicon.svg";
   import "../styles/atomize.css";
   import "../styles/main.css";
+  import "../styles/pico.css";
 
   let { children } = $props();
 </script>

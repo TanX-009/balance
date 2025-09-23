@@ -14,10 +14,12 @@
 </script>
 
 <nav class="disf aic jcsb gap-xs">
-  <div></div>
+  <div>
+    <a href={resolve("/(authenticated)")}>Balance</a>
+  </div>
   <div class="disf aic gap-s">
-    <h1>Hi, {data.user.username}!</h1>
     <img class="w-l br-xs" src={avatar} alt="{data.user.username} Avatar" />
+    <span>{data.user.username}</span>
     <a href={resolve("/logout")}>Sign out</a>
   </div>
 </nav>
